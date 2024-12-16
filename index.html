@@ -20,9 +20,15 @@
       name: 'スクリーン・リーダー・ユーザーのためのGoogle Workspace操作ガイド',
       repo: 'https://github.com/ma10/gws-guide/',
       loadSidebar: true,
+      timeUpdater: {
+        text: "最終更新：{docsify-updated}",
+        formatUpdated: "{YYYY}-{MM}-{DD} {HH}:{mm}",
+        whereToPlace: "bottom",  // "top" or "bottom", default to "bottom"
+      },
     }
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-updated/src/time-updater.min.js"></script>
 </body>
 </html>
